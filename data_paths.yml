@@ -1,0 +1,4 @@
+cifar-100: 'dataset_path'
+inaturalist19-224: 'dataset_path'
+tiered-imagenet-224: 'dataset_path'
+fgvc-aircraft: 'dataset_path'
