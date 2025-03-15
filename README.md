@@ -17,39 +17,39 @@ Refer to Repository:  [HAFrame](https://github.com/ltong1130ztr/HAFrame)
 
 ```bash
 python main.py 	--start training \
-				--arch custom_resnet50 \
-				--batch-size 64 \
-				--epochs 100 \
-				--loss ours_l3 \
-				--optimizer custom_sgd \
-				--data fgvc-aircraft \
-				--lr 0.1 \
-				--output ckpt/fgvc/fgvc-aircraft-res50-sgd-bz64/ours-l3 \
-				--weighting exp \
-				--alpha 1.0 \
-				--epsilon 0.5 \
-				--gamma 1 \
-				--beta 0.5 \
-				--seed 0
+		--arch custom_resnet50 \
+		--batch-size 64 \
+		--epochs 100 \
+		--loss ours_l3 \
+		--optimizer custom_sgd \
+		--data fgvc-aircraft \
+		--lr 0.1 \
+		--output ckpt/fgvc/fgvc-aircraft-res50-sgd-bz64/ours-l3 \
+		--weighting exp \
+		--alpha 1.0 \
+		--epsilon 0.5 \
+		--gamma 1 \
+		--beta 0.5 \
+		--seed 0
 ```
 
 ## Test
 ```bash
 python main.py 	--start testing \
-				--arch custom_resnet50 \
-				--batch-size 256 \
-				--epochs 100 \
-				--loss ours_l7 \
-				--optimizer custom_sgd \
-				--data inaturalist19-224 \
-				--lr 0.1 \
-				--output ckpt/iNat19/iNat-res50-sgd-bz256/ours-l7  \
-				--weighting exp \
-				--alpha 1.0 \
-				--epsilon 0.5 \
-				--gamma 1.5 \
-				--beta 0.5 \
-				--seed 0
+		--arch custom_resnet50 \
+		--batch-size 256 \
+		--epochs 100 \
+		--loss ours_l7 \
+		--optimizer custom_sgd \
+		--data inaturalist19-224 \
+		--lr 0.1 \
+		--output ckpt/iNat19/iNat-res50-sgd-bz256/ours-l7  \
+		--weighting exp \
+		--alpha 1.0 \
+		--epsilon 0.5 \
+		--gamma 1.5 \
+		--beta 0.5 \
+		--seed 0
 
 ```
 
